@@ -1,39 +1,64 @@
 <index>
   <head>
     <link rel="icon" href="https://cdn.glitch.global/a300bc83-1349-40d5-8dc8-60619ca5027c/annotate.png?v=1673970874349">
-    <script type="text/javascript">
-      window.open('about:blank').document.write(`
-        <head>
-          <link rel="icon" href="https://cdn.glitch.global/a300bc83-1349-40d5-8dc8-60619ca5027c/annotate.png?v=1673970874349">
-          <title>Annotate</title>
-        </head>
-        <body>
-          <style>
-            body {
-              margin: 0;
-            }
-          </style>
-          
-          <iframe style="border: none;" src="https://${location.host}/home" width="100%" height="100%">
-        </body>
-      `);
-    </script>
-    
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa&amp;display=swap">
-    <link rel="stylesheet" href="/home/style.css">
     
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="/home/style.css">
+    <script type="text/javascript">
+      if (document.cookie.includes('blacklisted')) document.innerHTML = '';
+      else alert(`Annotate v3 will be [hopefully] launching on 4/24/22.\n\nWe are STILL AWARE of the following broken services (fixed in v3!):\nAbyss, Hypertabs, Velocity, Holy Unblocker, Lunanom, & Nebula`)
+    </script>
     
     <title>Annotate</title>
   </head>
 
   <body>
-    <header align="center" style="border-bottom: none;">
-      <img src="https://cdn.glitch.global/a300bc83-1349-40d5-8dc8-60619ca5027c/annotate.png" width="300" height="300">
+    <header align="center">
+      <img src="https://cdn-icons-png.flaticon.com/512/3308/3308395.png" width="300" height="300">
       <h1>Annotate</h1>
-      <a href="/home"><h2 class="subtext">Open without cloaking...</h2></a>
+      <h2 class="subtext">The best collection of browsers, unblockers, apps, games, and more.</h2>
+      <h2 class="subtext">v3 coming soon! <a style="text-decoration: none" href="https://cdn.glitch.global/f8a7b9ed-85c3-44fd-9f1a-310bfa192b5a/cropped-leak-4-14.png?v=1681489430245">(quick leak here)</a></h2>
     </header>
     
-    <!-- <script src="/home/launch.js"></script> -->
+    <div align="center" class="bottomBorder">
+      <h2>Browsers</h2>
+      <button onclick="location.href = '/search/ab';">Abyss</button><br>
+      <button onclick="location.href = '/search/ht';">Hypertabs</button><br>
+      <button onclick="location.href = '/search/rh';">Rammerhead</button><br>
+      <button onclick="location.href = '/search/velo';">Velocity</button><br>
+      <br>
+    </div>
+    
+    <div align="center" class="bottomBorder">
+      <h2>Unblockers</h2>
+      <button onclick="location.href = '/unb/hub';">Holy Unblocker</button><br>
+      <button onclick="location.href = '/unb/calc';">Ludicrous</button><br>
+      <button onclick="location.href = '/unb/lunar';">Lunanom</button><br>
+      <button onclick="location.href = '/unb/metallic';">Metallic</button><br>
+      <button onclick="location.href = '/unb/nebula';">Nebula</button><br>
+      <button onclick="location.href = '/unb/uv';">Ultraviolet</button><br>
+      <button onclick="location.href = '/unb/toppings';">Webtoppings</button><br>
+      <br>
+    </div>
+    
+    <div align="center" class="bottomBorder">
+      <h2>Apps</h2>
+      <button onclick="location.href = '/apps/chat';">ChatGPT</button><br>
+      <button onclick="location.href = '/apps/disc';">Discord</button><br>
+      <button onclick="location.href = 'https://gh.villainsrule.xyz';">Github</button><br>
+      <button onclick="location.href = '/apps/watch';">Netflix</button><br>
+      <button onclick="location.href = '/apps/dictionary';">Urban Dictionary</button><br>
+      <br>
+    </div>
+    
+    <div align="center" class="bottomBorder">
+      <h2>Game Collections</h2>
+      <button onclick="location.href = '/play/echo';">3kh0</button><br>
+      <button onclick="location.href = '/play/school';">Skool</button><br>
+      <br>
+    </div>
+    <br>
+    <br>
+    <br>
   </body>
 </index>
